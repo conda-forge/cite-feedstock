@@ -1,5 +1,5 @@
 {% set name = "cite" %}
-{% set version = "0.7.0" %}
+{% set version = "0.7.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/cite-{{ version }}.tar.gz
-  sha256: 047bfe815f2bd26dbb8740a518dcb326368c79a0304d5571ab99211a676b426f
+  sha256: ff8d68efe23263bacdb4c3ff75507ceb3e5db4820429e740dfe2c501f6076455
 
 build:
   number: 0
@@ -38,7 +38,7 @@ about:
   license: BSD-2-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: 'Command line tool to get bibliography e.g. BibTex entries'
+  summary: Command line tool to get bibliography e.g. BibTex entries
   description: |
     Prints citation from DOIs or URLs of journal articles which 
     provide DOIs in their metadata.
